@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1f1;
+}
+
+header {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 24px 0;
+    margin-bottom: 64px;
+}
+
+header a {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120px;
+
+
+    color: #000000;
+}
+
+.article-card {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 36px;
+    margin-bottom: 45px;
+}
+
+.article-card .left {
+    max-width: 755px;
+}
+
+.article-card .left .author-data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.article-card span {
+    margin-left: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.article-card span.black {
+    color: black;
+}
+
+.article-card span.grey {
+    columns: #000000;
+    opacity: 0.5;
+}
+
+.article-card .left h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.article-card .left p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 70px;
+    max-width: 693px;
+}
+
+.article-card .details .text a {
+    padding: 6px 16px;
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
+    border-radius: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+    text-decoration: none;
+
+}
+
+.article-card .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-card .details .squares {
+    display: flex;
+
+}
+
+.article-card .details .squares div {
+    width: 24px;
+    height: 24px;
+    background: #E1E0E6;
+    margin-left: 14px;
+}

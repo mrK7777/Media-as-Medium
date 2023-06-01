@@ -1,0 +1,137 @@
+.navigation-back {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+.author-and-info {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+
+.author-and-info .left {
+    display: flex;
+    align-items: center;
+}
+
+.author-and-info .left h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.author-and-info .left p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.author-and-info .left p span {
+    margin-right: 4px;
+}
+
+.author-and-info .avatar {
+    margin-right: 16px;
+}
+
+.author-and-info .right a {
+    text-decoration: none;
+    margin-left: 20px;
+
+
+}
+
+article {
+    max-width: 1120px;
+    margin: 0 auto;
+
+}
+
+article h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+article p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+article h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+
+}
+
+article p.text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+article .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+article .actions .left {
+    display: flex;
+}
+
+article .actions .left div {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #B7B7B7;
+    margin-right: 16px;
+}
+
+article .actions .left div img {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+hr {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 80px;
+}
